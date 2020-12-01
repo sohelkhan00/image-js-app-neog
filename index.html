@@ -15,18 +15,46 @@
   </head>
   <body>
     <nav class="sticky-top">
-      <h1>Images</h1>
-      <div id="button"></div>
-      <div id="search"></div>
-      <p onclick="random()">Random</p>
-      <p onclick="search()">Search</p>
+      <table>
+        <tr>
+          <td><h1 onclick="reload()">Insta Timepass</h1></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="border: 1px solid white">
+            <div onclick="search()">Search</div>
+          </td>
+          <td style="border: 1px solid white">
+            <div onclick="random()">Random</div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><div id="search"></div></td>
+          <td><div id="button"></div></td>
+        </tr>
+      </table>
     </nav>
 
-    <div style="display: block" class="container">
+    <div class="container">
       <div class="row"></div>
+      <div class="content">
+        <p>
+          This is a app made using flickr public API. You can search images by
+          tag name. You can also get random images by clicking on button.
+          <br /><br />
+          Keep Scrolling, clicking and searching :) <br /><br />
+          Since photos are random and depends on public feed of flickr. <br />
+          <strong>Viewer discretion advised</strong>
+        </p>
+      </div>
     </div>
 
-    <footer></footer>
+    <footer>
+      <div>By Sohel with ❤️</div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

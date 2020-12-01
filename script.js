@@ -1,3 +1,7 @@
+function reload() {
+  location.reload();
+}
+
 function random() {
   //remove search bar
   const search = document.querySelector("#search");
