@@ -1,0 +1,35 @@
+nav, footer{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+nav h1{
+    display: inline;
+}
+
+nav p{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#button, #search{
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    display: inline;
+    margin: 2rem 2rem auto 2rem;
+    float: right;
+}
+
+body{
+    background-color: #c5d9ec;
+}
+
+.card {
+    margin: 2em;
+}
